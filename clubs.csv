@@ -1,0 +1,225 @@
+﻿name;stadium;city;country;power
+Arsenal;Emirates Stadium;London;England;5
+Aston Villa;Villa Park;Birmingham;England;4
+Bournemouth;Vitality Stadium;Bournemouth;England;3
+Brentford;Gtech Community Stadium;London;England;3
+Brighton and Hove Albion;Amex Stadium;Brighton;England;3
+Burnley;Turf Moor;Burnley;England;2
+Chelsea;Stamford Bridge;London;England;4
+Crystal Palace;Selhurst Park;London;England;3
+Everton;Everton Stadium;Liverpool;England;3
+Fulham;Craven Cottage;London;England;3
+Ipswich Town;Portman Road;Ipswich;England;2
+Leeds;Elland Road;Leeds;England;2
+Leicester City;King Power Stadium;Leicester;England;2
+Liverpool;Anfield;Liverpool;England;5
+Manchester City;Etihad Stadium;Manchester;England;5
+Manchester United;Old Trafford;Manchester;England;3
+Newcastle United;St James' Park;Newcastle upon Tyne;England;4
+Nottingham Forest;The City Ground;Nottingham;England;3
+Southampton;St Mary's Stadium;Southampton;England;2
+Sunderland;Stadium of Light;Sunderland;England;2
+Tottenham Hotspur;Tottenham Hotspur Stadium;London;England;3
+West Ham United;London Stadium;London;England;3
+Wolverhampton Wanderers;Molineux Stadium;Wolverhampton;England;3
+Barcelona;;;Rest of the world;5
+Celta Vigo;;;Rest of the world;3
+Athletic Club;;;Rest of the world;4
+Villarreal;;;Rest of the world;4
+Atletico Madrid;;;Rest of the world;5
+Girona;;;Rest of the world;3
+Osasuna;;;Rest of the world;2
+Real Sociedad;;;Rest of the world;3
+Leganes;;;Rest of the world;2
+Las Palmas;;;Rest of the world;2
+Getafe;;;Rest of the world;3
+Betis;;;Rest of the world;3
+Mallorca;;;Rest of the world;2
+Rayo Vallecano;;;Rest of the world;3
+Valladolid;;;Rest of the world;2
+Espanyol;;;Rest of the world;2
+Alaves;;;Rest of the world;2
+Real Madrid;;;Rest of the world;5
+Sevilla;;;Rest of the world;3
+Valencia;;;Rest of the world;3
+Rio Ave;;;Rest of the world;2
+Nacional;;;Rest of the world;2
+Farense;;;Rest of the world;2
+Porto;;;Rest of the world;4
+Arouca;;;Rest of the world;2
+AVS Futebol;;;Rest of the world;2
+Estoril;;;Rest of the world;2
+Casa Pia;;;Rest of the world;2
+Famalicao;;;Rest of the world;3
+Estrela;;;Rest of the world;2
+Braga;;;Rest of the world;3
+Santa Clara;;;Rest of the world;3
+Moreirense;;;Rest of the world;2
+Boavista;;;Rest of the world;2
+Gil Vicente FC;;;Rest of the world;2
+Benfica;;;Rest of the world;4
+Vitoria;;;Rest of the world;2
+Sporting CP;;;Rest of the world;4
+Marseille;;;Rest of the world;4
+Lens;;;Rest of the world;3
+Saint-Etienne;;;Rest of the world;2
+Paris S-G;;;Rest of the world;5
+Toulouse;;;Rest of the world;2
+Auxerre;;;Rest of the world;2
+Le Havre;;;Rest of the world;2
+Rennes;;;Rest of the world;3
+Reims;;;Rest of the world;3
+Nice;;;Rest of the world;4
+Montpellier;;;Rest of the world;3
+Monaco;;;Rest of the world;4
+Strasbourg;;;Rest of the world;3
+Lille;;;Rest of the world;3
+Angers;;;Rest of the world;3
+Lyon;;;Rest of the world;3
+Nantes;;;Rest of the world;2
+Martigues;;;Rest of the world;1
+Grenoble;;;Rest of the world;1
+Amiens;;;Rest of the world;1
+Red Star;;;Rest of the world;1
+Metz;;;Rest of the world;1
+Pau FC;;;Rest of the world;2
+Ajaccio;;;Rest of the world;1
+Caen;;;Rest of the world;1
+Annecy;;;Rest of the world;1
+Rodez Aveyron;;;Rest of the world;1
+Troyes;;;Rest of the world;1
+Paris FC;;;Rest of the world;2
+Stade Laval;;;Rest of the world;1
+Dunkerque;;;Rest of the world;1
+Clermont Foot;;;Rest of the world;1
+Bastia;;;Rest of the world;1
+Guingamp;;;Rest of the world;1
+Brest;;;Rest of the world;1
+Heerenveen;;;Rest of the world;2
+Fortuna Sittard;;;Rest of the world;2
+Go Ahead Eag;;;Rest of the world;2
+RKC Waalwijk;;;Rest of the world;2
+Groningen;;;Rest of the world;2
+Heracles Almelo;;;Rest of the world;2
+Willem II;;;Rest of the world;2
+Feyenoord;;;Rest of the world;4
+PSV Eindhoven;;;Rest of the world;4
+Twente;;;Rest of the world;3
+Zwolle;;;Rest of the world;2
+NEC Nijmegen;;;Rest of the world;2
+Utrecht;;;Rest of the world;3
+Almere City;;;Rest of the world;2
+Sparta R'dam;;;Rest of the world;2
+AZ Alkmaar;;;Rest of the world;3
+NAC Breda;;;Rest of the world;2
+Ajax;;;Rest of the world;4
+Napoli;;;Rest of the world;5
+Juventus;;;Rest of the world;4
+Genoa;;;Rest of the world;3
+Lazio;;;Rest of the world;4
+Torino;;;Rest of the world;3
+Como;;;Rest of the world;3
+Venezia;;;Rest of the world;2
+Atalanta;;;Rest of the world;4
+Lecce;;;Rest of the world;2
+Roma;;;Rest of the world;4
+Fiorentina;;;Rest of the world;3
+Cagliari;;;Rest of the world;2
+Parma;;;Rest of the world;2
+Milan;;;Rest of the world;4
+Bologna;;;Rest of the world;3
+Udinese;;;Rest of the world;3
+Monza;;;Rest of the world;2
+Empoli;;;Rest of the world;2
+Mechelen;;;Rest of the world;2
+Genk;;;Rest of the world;3
+Antwerp;;;Rest of the world;3
+Dender;;;Rest of the world;2
+Cercle Brugge;;;Rest of the world;3
+Kortrijk;;;Rest of the world;2
+Gent;;;Rest of the world;3
+Charleroi;;;Rest of the world;3
+Union SG;;;Rest of the world;3
+Westerlo;;;Rest of the world;2
+Anderlecht;;;Rest of the world;3
+OH Leuven;;;Rest of the world;2
+Sint-Truiden;;;Rest of the world;2
+Beerschot;;;Rest of the world;2
+Internacional;;;Rest of the world;3
+Flamengo;;;Rest of the world;4
+Sao Paulo;;;Rest of the world;3
+Cuiaba;;;Rest of the world;2
+Ath Paranaense;;;Rest of the world;2
+Criciuma;;;Rest of the world;2
+Vasco da Gama;;;Rest of the world;3
+Atletico Mineiro;;;Rest of the world;2
+RB Bragantino;;;Rest of the world;2
+Juventude;;;Rest of the world;2
+Fortaleza;;;Rest of the world;2
+Corinthians;;;Rest of the world;3
+Gremio;;;Rest of the world;2
+Bahia;;;Rest of the world;3
+Atl Goianiense;;;Rest of the world;2
+Botafogo (RJ);;;Rest of the world;3
+Cruzeiro;;;Rest of the world;4
+Fluminense;;;Rest of the world;3
+Eint Frankfurt;;;Rest of the world;4
+Werder Bremen;;;Rest of the world;3
+Heidenheim;;;Rest of the world;2
+Stuttgart;;;Rest of the world;3
+Bochum;;;Rest of the world;2
+Union Berlin;;;Rest of the world;3
+St. Pauli;;;Rest of the world;2
+Augsburg;;;Rest of the world;2
+RB Leipzig;;;Rest of the world;4
+Mainz 05;;;Rest of the world;3
+Freiburg;;;Rest of the world;3
+Bayern Munich;;;Rest of the world;5
+Gladbach;;;Rest of the world;4
+Hoffenheim;;;Rest of the world;3
+Wolfsburg;;;Rest of the world;3
+Leverkusen;;;Rest of the world;5
+Holstein Kiel;;;Rest of the world;2
+Hellas Verona;;;Rest of the world;2
+Dortmund;;;Rest of the world;4
+Inter;;;Rest of the world;5
+Palmeiras;;;Rest of the world;4
+Santos;;;Rest of the world;3
+Ceara;;;Rest of the world;2
+Ceske Budejovice;;;Rest of the world;2
+Slovan Liberec;;;Rest of the world;2
+Sigma Olomouc;;;Rest of the world;2
+Teplice;;;Rest of the world;2
+FK Pardubice;;;Rest of the world;2
+Mlada Boleslav;;;Rest of the world;2
+Viktoria Pilzno;;;Rest of the world;3
+Bohemians 1905;;;Rest of the world;2
+Sparta Prague;;;Rest of the world;3
+Jablonec;;;Rest of the world;2
+Dukla Prague;;;Rest of the world;2
+Hradec Kralove;;;Rest of the world;2
+Karvina;;;Rest of the world;2
+Banik Ostrava;;;Rest of the world;2
+Oxford United;;;Rest of the world;2
+Sheffield United;;;Rest of the world;2
+Millwall;;;Rest of the world;2
+Hull City;;;Rest of the world;2
+Queens Park Rangers;;;Rest of the world;2
+Coventry City;;;Rest of the world;2
+Stoke City;;;Rest of the world;2
+Leeds United;;;Rest of the world;2
+Luton Town;;;Rest of the world;2
+Preston North End;;;Rest of the world;2
+Bristol City;;;Rest of the world;2
+Norwich City;;;Rest of the world;2
+Portsmouth;;;Rest of the world;2
+Sheffield Wednesday;;;Rest of the world;2
+Blackburn Rovers;;;Rest of the world;2
+Cardiff City;;;Rest of the world;2
+Derby County;;;Rest of the world;2
+Plymouth Argyle;;;Rest of the world;2
+Watford;;;Rest of the world;2
+Middlesbrough;;;Rest of the world;2
+Swansea City;;;Rest of the world;2
+West Bromwich Albion;;;Rest of the world;2
+Standard Liege;;;Rest of the world;2

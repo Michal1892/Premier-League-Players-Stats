@@ -1,0 +1,665 @@
+﻿player_id;surname;name;position;club;price;last_season_in_premier_league
+1000;David;Raya;Goalkeeper;Arsenal;5.5;Yes
+1001;Kepa;Arrizabalaga;Goalkeeper;Arsenal;4.5;Yes
+1002;Karl;Hein;Goalkeeper;Arsenal;4.0;Yes
+1003;Tommy;Setford;Goalkeeper;Arsenal;4.0;Yes
+1004;Gabriel;Magalhaes;Defender;Arsenal;6.0;Yes
+1005;William;Saliba;Defender;Arsenal;6.0;Yes
+1006;Riccardo;Calafiori;Defender;Arsenal;5.5;Yes
+1007;Jurrien;Timber;Defender;Arsenal;5.5;Yes
+1008;Jakub;Kiwior;Defender;Arsenal;5.5;Yes
+1009;Myles;Lewis-Skelly;Defender;Arsenal;5.5;Yes
+1010;Ben;White;Defender;Arsenal;5.5;Yes
+1011;Oleksandr;Zinchenko;Defender;Arsenal;5.0;Yes
+1012;Brayden;Clarke;Defender;Arsenal;4.0;Yes
+1013;Maldini;Kacurri;Defender;Arsenal;4.0;Yes
+1014;Josh;Nichols;Defender;Arsenal;4.0;Yes
+1015;Bukayo;Saka;Midfielder;Arsenal;10.0;Yes
+1016;Martin;Odegaard;Midfielder;Arsenal;8.0;Yes
+1017;Noni;Madueke;Midfielder;Arsenal;7.0;Yes
+1018;Gabriel;Martinelli;Midfielder;Arsenal;7.0;Yes
+1019;Leandro;Trossard;Midfielder;Arsenal;7.0;Yes
+1020;Declan;Rice;Midfielder;Arsenal;6.5;Yes
+1021;Mikel;Merino;Midfielder;Arsenal;6.0;Yes
+1022;Fabio;Vieira;Midfielder;Arsenal;5.5;No
+1023;Christian;Norgaard;Midfielder;Arsenal;5.5;Yes
+1024;Ethan;Nwaneri;Midfielder;Arsenal;5.5;Yes
+1025;Martin;Zubimendi;Midfielder;Arsenal;5.5;No
+1026;Reiss;Nelson;Midfielder;Arsenal;5.0;Yes
+1027;Ismeal;Kabia;Midfielder;Arsenal;4.5;Yes
+1028;Albert;Sambi;Midfielder;Arsenal;4.5;Yes
+1029;Kai;Havertz;Forward;Arsenal;7.5;Yes
+1030;Gabriel;Jesus;Forward;Arsenal;6.5;Yes
+1031;Cristhian;Mosquera;Defender;Arsenal;5.5;Yes
+1032;Emiliano;Martinez;Goalkeeper;Aston Villa;5.0;Yes
+1033;Marco;Bizot;Goalkeeper;Aston Villa;4.5;No
+1034;Joe;Gauci;Goalkeeper;Aston Villa;4.0;Yes
+1035;Filip;Marschall;Goalkeeper;Aston Villa;4.0;Yes
+1036;Matty;Cash;Defender;Aston Villa;4.5;Yes
+1037;Lucas;Digne;Defender;Aston Villa;4.5;Yes
+1038;Ezri;Konsa;Defender;Aston Villa;4.5;Yes
+1039;Ian;Maatsen;Defender;Aston Villa;4.5;Yes
+1040;Tyrone;Mings;Defender;Aston Villa;4.5;Yes
+1041;Pau;Torres;Defender;Aston Villa;4.5;Yes
+1042;Andres;Garcia;Defender;Aston Villa;4.0;Yes
+1043;Alex;Moreno;Defender;Aston Villa;4.0;Yes
+1044;Lamare;Bogarde;Defender;Aston Villa;4.0;Yes
+1045;Lino;Sousa;Defender;Aston Villa;4.0;Yes
+1046;Yasin;Yasin;Defender;Aston Villa;4.0;Yes
+1047;Morgan;Rogers;Midfielder;Aston Villa;7.0;Yes
+1048;Youri;Tielemans;Midfielder;Aston Villa;6.0;Yes
+1049;Leon;Bailey;Midfielder;Aston Villa;5.5;Yes
+1050;Emi;Buendia;Midfielder;Aston Villa;5.5;Yes
+1051;Samuel;Iling Jr;Midfielder;Aston Villa;5.5;Yes
+1052;Jacob;Ramsey;Midfielder;Aston Villa;5.5;Yes
+1053;Donyell;Malen;Midfielder;Aston Villa;5.5;Yes
+1054;John;McGinn;Midfielder;Aston Villa;5.5;Yes
+1055;Ross;Barkley;Midfielder;Aston Villa;5.0;Yes
+1056;Enzo;Barrenechea;Midfielder;Aston Villa;5.0;Yes
+1057;Lewis;Dobbin;Midfielder;Aston Villa;5.0;No
+1058;Boubacar;Kamara;Midfielder;Aston Villa;5.0;Yes
+1059;Amadou;Onana;Midfielder;Aston Villa;5.0;Yes
+1060;Ben;Broggio;Midfielder;Aston Villa;4.5;Yes
+1061;Leander;Dendoncker;Midfielder;Aston Villa;4.5;Yes
+1062;Jamaldeen;Jimoh-Aloba;Midfielder;Aston Villa;4.5;Yes
+1063;Kadan;Young;Midfielder;Aston Villa;4.5;Yes
+1064;Ollie;Watkins;Forward;Aston Villa;9.0;Yes
+1065;Zepiqueno;Redmond;Forward;Aston Villa;4.5;Yes
+1066;James;Trafford;Goalkeeper;Burnley;5.0;No
+1067;Max;Weiss;Goalkeeper;Burnley;4.5;Yes
+1068;Etienne;Green;Goalkeeper;Burnley;4.0;Yes
+1069;Vaclav;Hladky;Goalkeeper;Burnley;4.0;No
+1070;Connor;Roberts;Defender;Burnley;4.5;No
+1071;Kyle;Walker;Defender;Burnley;4.5;Yes
+1072;Hannes;Delcroix;Defender;Burnley;4.0;No
+1073;Owen;Dodgson;Defender;Burnley;4.0;Yes
+1074;Hjalmar;Ekdal;Defender;Burnley;4.0;Yes
+1075;Maxime;Esteve;Defender;Burnley;4.0;No
+1076;Quilindschy;Hartman;Defender;Burnley;4.0;Yes
+1077;Bashir;Humphreys;Defender;Burnley;4.0;No
+1078;Jordan;Jordan;Defender;Burnley;4.0;Yes
+1079;Lucas;Pires;Defender;Burnley;4.0;No
+1080;Shurandy;Sambo;Defender;Burnley;4.0;No
+1081;Oliver;Sonne;Defender;Burnley;4.0;No
+1082;Axel;Tuanzebe;Defender;Burnley;4.0;Yes
+1083;Joe;Worrall;Defender;Burnley;4.0;No
+1084;Jaidon;Anthony;Midfielder;Burnley;5.5;No
+1085;Manuel;Benson;Midfielder;Burnley;5.5;Yes
+1086;Jacob;Bruun Larsen;Midfielder;Burnley;5.5;Yes
+1087;Enock;Boateng;Midfielder;Burnley;5.0;Yes
+1088;Darko;Churlinov;Midfielder;Burnley;5.0;Yes
+1089;Josh;Cullen;Midfielder;Burnley;5.0;No
+1090;Marcus;Edwards;Midfielder;Burnley;5.0;No
+1091;Hannibal;Hannibal;Midfielder;Burnley;5.0;Yes
+1092;Luca;Koleosho;Midfielder;Burnley;5.0;No
+1093;Josh;Laurent;Midfielder;Burnley;5.0;No
+1094;Loum;Tchaouna;Midfielder;Burnley;5.0;Yes
+1095;Aaron;Ramsey;Midfielder;Burnley;4.5;No
+1096;Oluwaseun;Adewumi;Midfielder;Burnley;4.5;Yes
+1097;Jaydon;Banel;Midfielder;Burnley;4.5;Yes
+1098;Mike;Tresor;Midfielder;Burnley;4.5;Yes
+1099;Zian;Flemming;Forward;Burnley;5.5;No
+1100;Zeki;Amdouni;Forward;Burnley;5.0;No
+1101;Lyle;Foster;Forward;Burnley;5.0;No
+1102;Ashley;Barnes;Forward;Burnley;4.5;No
+1103;Michael;Obafemi;Forward;Burnley;4.5;No
+1104;;Neto;Goalkeeper;Bournemouth;4.5;Yes
+1105;Dorde;Petrovic;Goalkeeper;Bournemouth;4.5;No
+1106;Will;Dennis;Goalkeeper;Bournemouth;4.0;Yes
+1107;Callan;McKenna;Goalkeeper;Bournemouth;4.0;Yes
+1108;Alex;Paulsen;Goalkeeper;Bournemouth;4.0;Yes
+1109;Illia;Zabarnyi;Defender;Bournemouth;5.0;Yes
+1110;Marcos;Senesi;Defender;Bournemouth;4.5;Yes
+1111;Adam;Smith;Defender;Bournemouth;4.5;Yes
+1112;Adrien;Truffert;Defender;Bournemouth;4.5;No
+1113;Matai;Akinmboni;Defender;Bournemouth;4.0;Yes
+1114;Owen;Bevan;Defender;Bournemouth;4.0;Yes
+1115;James;Hill;Defender;Bournemouth;4.0;Yes
+1116;Julian;Araujo;Defender;Bournemouth;4.0;Yes
+1117;Chris;Mepham;Defender;Bournemouth;4.0;No
+1118;Julio;Soler;Defender;Bournemouth;4.0;Yes
+1119;Justin;Kluivert;Midfielder;Bournemouth;7.0;Yes
+1120;Antoine;Semenyo;Midfielder;Bournemouth;7.0;Yes
+1121;Dango;Ouattara;Midfielder;Bournemouth;6.0;Yes
+1122;Marcus;Tavernier;Midfielder;Bournemouth;5.5;Yes
+1123;Tyler;Adams;Midfielder;Bournemouth;5.0;Yes
+1124;David;Brooks;Midfielder;Bournemouth;5.0;Yes
+1125;Ryan;Christie;Midfielder;Bournemouth;5.0;Yes
+1126;Lewis;Cook;Midfielder;Bournemouth;5.0;Yes
+1127;Philip;Philip;Midfielder;Bournemouth;5.0;Yes
+1128;Alex;Scott;Midfielder;Bournemouth;5.0;Yes
+1129;Luis;Sinisterra;Midfielder;Bournemouth;5.0;Yes
+1130;Romain;Faivre;Midfielder;Bournemouth;4.5;Yes
+1131;Hamed;Traore;Midfielder;Bournemouth;4.5;Yes
+1132;Dominic;Sadi;Midfielder;Bournemouth;4.5;Yes
+1133;Zain;Silcott-Duberry;Midfielder;Bournemouth;4.5;Yes
+1134;Ben;Winterburn;Midfielder;Bournemouth;4.5;Yes
+1135;;Evanilson;Forward;Bournemouth;7.0;Yes
+1136;Enes;Unal;Forward;Bournemouth;5.5;Yes
+1137;Daniel;Adu-Adjei;Forward;Bournemouth;4.5;Yes
+1138;Eli Junior;Kroupi;Forward;Bournemouth;4.5;No
+1139;Caoimhin;Kelleher;Goalkeeper;Brentford;4.5;Yes
+1140;Ellery;Balcombe;Goalkeeper;Brentford;4.0;Yes
+1141;Matthew;Cox;Goalkeeper;Brentford;4.0;Yes
+1142;Julian;Eyestone;Goalkeeper;Brentford;4.0;Yes
+1143;Hakon Rafn;Valdimarsson;Goalkeeper;Brentford;4.0;Yes
+1144;Nathan;Collins;Defender;Brentford;5.0;Yes
+1145;Keane;Lewis-Potter;Defender;Brentford;5.0;Yes
+1146;Kristoffer;Ajer;Defender;Brentford;4.5;Yes
+1147;Rico;Henry;Defender;Brentford;4.5;Yes
+1148;Michael;Kayode;Defender;Brentford;4.5;Yes
+1149;Ethan;Pinnock;Defender;Brentford;4.5;Yes
+1150;Mads;Roerslev;Defender;Brentford;4.5;Yes
+1151;Sepp;Van den Berg;Defender;Brentford;4.5;Yes
+1152;Benjamin;Arthur;Defender;Brentford;4.0;Yes
+1153;Benjamin;Fredrick;Defender;Brentford;4.0;Yes
+1154;Aaron;Hickey;Defender;Brentford;4.0;Yes
+1155;Kim;Ji-soo;Defender;Brentford;4.0;Yes
+1156;Jayden;Meghoma;Defender;Brentford;4.0;No
+1157;Kevin;Schade;Midfielder;Brentford;7.0;Yes
+1158;Mikkel;Damsgaard;Midfielder;Brentford;6.0;Yes
+1159;Antoni;Milambo;Midfielder;Brentford;5.5;No
+1160;Fabio;Carvalho;Midfielder;Brentford;5.0;Yes
+1161;Jordan;Henderson;Midfielder;Brentford;5.0;No
+1162;Vitaly;Janelt;Midfielder;Brentford;5.0;Yes
+1163;Mathias;Jensen;Midfielder;Brentford;5.0;Yes
+1164;Gustavo;Nunes;Midfielder;Brentford;5.0;Yes
+1165;Frank;Onyeka;Midfielder;Brentford;5.0;Yes
+1166;Yehor;Yarmoliuk;Midfielder;Brentford;5.0;Yes
+1167;Romelle;Donovan;Midfielder;Brentford;4.5;Yes
+1168;Yunus Emre;Konak;Midfielder;Brentford;4.5;Yes
+1169;Paris;Maghoma;Midfielder;Brentford;4.5;Yes
+1170;Myles;Peart-Harris;Midfielder;Brentford;4.5;No
+1171;Ryan;Trevitt;Midfielder;Brentford;4.5;Yes
+1172;Yoane;Wissa;Forward;Brentford;7.5;Yes
+1173;;Thiago;Forward;Brentford;6.0;Yes
+1174;Iwan;Morgan;Forward;Brentford;4.5;Yes
+1175;Jason;Steele;Goalkeeper;Brighton and Hove Albion;4.5;Yes
+1176;Bart;Verbruggen;Goalkeeper;Brighton and Hove Albion;4.5;Yes
+1177;Tom;McGill;Goalkeeper;Brighton and Hove Albion;4.0;Yes
+1178;Carl;Rushworth;Goalkeeper;Brighton and Hove Albion;4.0;Yes
+1179;Kjell;Scherpen;Goalkeeper;Brighton and Hove Albion;4.0;Yes
+1180;Olivier;Boscagli;Defender;Brighton and Hove Albion;4.5;No
+1181;Diego;Coppola;Defender;Brighton and Hove Albion;4.5;No
+1182;Maxim;De Cuyper;Defender;Brighton and Hove Albion;4.5;No
+1183;Lewis;Dunk;Defender;Brighton and Hove Albion;4.5;Yes
+1184;Pervis;Estupinian;Defender;Brighton and Hove Albion;4.5;Yes
+1185;Ferdi;Kadioglu;Defender;Brighton and Hove Albion;4.5;Yes
+1186;;Igor;Defender;Brighton and Hove Albion;4.5;Yes
+1187;Tariq;Lamptey;Defender;Brighton and Hove Albion;4.5;Yes
+1188;Jan Paul;Van Hecke;Defender;Brighton and Hove Albion;4.5;Yes
+1189;Joel;Veltman;Defender;Brighton and Hove Albion;4.5;Yes
+1190;Adam;Webster;Defender;Brighton and Hove Albion;4.5;Yes
+1191;Eiran;Cashin;Defender;Brighton and Hove Albion;4.0;No
+1192;Jacob;Slater;Defender;Brighton and Hove Albion;4.0;Yes
+1193;Charlie;Tasker;Defender;Brighton and Hove Albion;4.0;Yes
+1194;Kaoru;Mitoma;Midfielder;Brighton and Hove Albion;6.5;Yes
+1195;Georginio;Rutter;Midfielder;Brighton and Hove Albion;6.0;No
+1196;Solly;March;Midfielder;Brighton and Hove Albion;6.0;Yes
+1197;Yankuba;Minteh;Midfielder;Brighton and Hove Albion;6.0;Yes
+1198;Julio;Enciso;Midfielder;Brighton and Hove Albion;5.5;Yes
+1199;Brajan;Gruda;Midfielder;Brighton and Hove Albion;5.5;Yes
+1200;Jack;Hinshelwood;Midfielder;Brighton and Hove Albion;5.5;Yes
+1201;Matt;O'Riley;Midfielder;Brighton and Hove Albion;5.5;Yes
+1202;Abdallah;Sima;Midfielder;Brighton and Hove Albion;5.5;No
+1203;Yasin;Ayari;Midfielder;Brighton and Hove Albion;5.0;Yes
+1204;Carlos;Baleba;Midfielder;Brighton and Hove Albion;5.0;Yes
+1205;Facundo;Buonanotte;Midfielder;Brighton and Hove Albion;5.0;Yes
+1206;Diego;Gomez;Midfielder;Brighton and Hove Albion;5.0;Yes
+1207;James;Milner;Midfielder;Brighton and Hove Albion;5.0;Yes
+1208;Jeremy;Sarmiento;Midfielder;Brighton and Hove Albion;5.0;No
+1209;Tom;Watson;Midfielder;Brighton and Hove Albion;5.0;No
+1210;Mats;Wieffer;Midfielder;Brighton and Hove Albion;5.0;Yes
+1211;Malick;Yalcouye;Midfielder;Brighton and Hove Albion;5.0;Yes
+1212;Joe;Knight;Midfielder;Brighton and Hove Albion;4.5;Yes
+1213;Adrian;Mazilu;Midfielder;Brighton and Hove Albion;4.5;Yes
+1214;Andrew;Moran;Midfielder;Brighton and Hove Albion;4.5;No
+1215;Danny;Welbeck;Forward;Brighton and Hove Albion;6.5;Yes
+1216;Evan;Ferguson;Forward;Brighton and Hove Albion;5.5;Yes
+1217;Stefanos;Tzimas;Forward;Brighton and Hove Albion;5.5;Yes
+1218;Charalampos;Kostoulas;Forward;Brighton and Hove Albion;5.0;Yes
+1219;Robert;Sanchez;Goalkeeper;Chelsea;5.0;Yes
+1220;Filip;Jorgensen;Goalkeeper;Chelsea;4.5;Yes
+1221;Mike;Penders;Goalkeeper;Chelsea;4.0;Yes
+1222;Gabriel;Slonina;Goalkeeper;Chelsea;4.0;Yes
+1223;Marc;Cucurella;Defender;Chelsea;6.0;Yes
+1224;Reece;James;Defender;Chelsea;5.5;Yes
+1225;Trevoh;Chalobah;Defender;Chelsea;5.0;Yes
+1226;Levi;Colwill;Defender;Chelsea;5.0;Yes
+1227;Malo;Gusto;Defender;Chelsea;5.0;Yes
+1228;Benoit;Badiashile;Defender;Chelsea;4.5;Yes
+1229;Wesley;Fofana;Defender;Chelsea;4.5;Yes
+1230;Mamadou;Sarr;Defender;Chelsea;4.5;No
+1231;Tosin;Adarabioyo;Defender;Chelsea;4.5;Yes
+1232;Joshua;Acheampong;Defender;Chelsea;4.0;Yes
+1233;Aarón;Anselmino;Defender;Chelsea;4.0;Yes
+1234;Cole;Palmer;Midfielder;Chelsea;10.5;Yes
+1235;Pedro;Neto;Midfielder;Chelsea;7.0;Yes
+1236;Enzo;Fernandez;Midfielder;Chelsea;6.5;Yes
+1237;Almeida;Estevao;Midfielder;Chelsea;6.5;No
+1238;Jamie;Gittens;Midfielder;Chelsea;6.5;No
+1239;Christopher;Nkunku;Midfielder;Chelsea;6.0;Yes
+1240;Moises;Caicedo;Midfielder;Chelsea;5.5;Yes
+1241;Kiernan;Dewsbury-Hall;Midfielder;Chelsea;5.0;Yes
+1242;Tyrique;George;Midfielder;Chelsea;5.0;Yes
+1243;Romeo;Lavia;Midfielder;Chelsea;5.0;Yes
+1244;Mykhailo;Mudryk;Midfielder;Chelsea;5.0;Yes
+1245;Andrey;Andrey Santos;Midfielder;Chelsea;4.5;Yes
+1246;Dario;Essugo;Midfielder;Chelsea;4.5;Yes
+1247;Kendry;Paez;Midfielder;Chelsea;4.5;Yes
+1248;Joao;Pedro;Forward;Chelsea;7.5;Yes
+1249;Liam;Delap;Forward;Chelsea;6.5;Yes
+1250;Nicolas;Jackson;Forward;Chelsea;6.5;Yes
+1251;Marc;Guiu;Forward;Chelsea;4.5;Yes
+1252;Dean;Henderson;Goalkeeper;Crystal Palace;5.0;Yes
+1253;Walter;Benitez;Goalkeeper;Crystal Palace;4.0;Yes
+1254;Remi;Matthews;Goalkeeper;Crystal Palace;4.0;Yes
+1255;Daniel;Munoz;Defender;Crystal Palace;5.5;Yes
+1256;Maxence;Lacroix;Defender;Crystal Palace;5.0;Yes
+1257;Tyrick;Mitchell;Defender;Crystal Palace;5.0;Yes
+1258;Borna;Sosa;Defender;Crystal Palace;5.0;No
+1259;Marc;Guehi;Defender;Crystal Palace;4.5;Yes
+1260;Chris;Richards;Defender;Crystal Palace;4.5;Yes
+1261;Chadi;Chadi Riad;Defender;Crystal Palace;4.0;Yes
+1262;Nathaniel;Clyne;Defender;Crystal Palace;4.0;Yes
+1263;Rob;Holding;Defender;Crystal Palace;4.0;Yes
+1264;Caleb;Kporha;Defender;Crystal Palace;4.0;Yes
+1265;Eberechi;Eze;Midfielder;Crystal Palace;7.5;Yes
+1266;Ismaila;Sarr;Midfielder;Crystal Palace;6.5;Yes
+1267;Cheick;Doucoure;Midfielder;Crystal Palace;5.0;Yes
+1268;Romain;Esse;Midfielder;Crystal Palace;5.0;No
+1269;Will;Hughes;Midfielder;Crystal Palace;5.0;Yes
+1270;Daichi;Kamada;Midfielder;Crystal Palace;5.0;Yes
+1271;Jefferson;Lerma;Midfielder;Crystal Palace;5.0;Yes
+1272;Adam;Wharton;Midfielder;Crystal Palace;5.0;Yes
+1273;Asher;Agbinone;Midfielder;Crystal Palace;4.5;Yes
+1274;Naouirou;Ahamada;Midfielder;Crystal Palace;4.5;Yes
+1275;Justin;Devenny;Midfielder;Crystal Palace;4.5;Yes
+1276;Malcolm;Ebiowei;Midfielder;Crystal Palace;4.5;Yes
+1277;Jesurun;J.Rak-Sakyi;Midfielder;Crystal Palace;4.5;Yes
+1278;Matheus;Franca;Midfielder;Crystal Palace;4.5;Yes
+1279;David;Ozoh;Midfielder;Crystal Palace;4.5;Yes
+1280;Kaden;Rodney;Midfielder;Crystal Palace;4.5;Yes
+1281;Franco;Umeh;Midfielder;Crystal Palace;4.5;Yes
+1282;Jean-Philippe;Mateta;Forward;Crystal Palace;7.5;Yes
+1283;Eddie;Nketiah;Forward;Crystal Palace;5.5;Yes
+1284;Odsonne;Edouard;Forward;Crystal Palace;5.0;Yes
+1285;Zach;Marsh;Forward;Crystal Palace;4.5;Yes
+1286;Jordan;Pickford;Goalkeeper;Everton;5.5;Yes
+1287;Mark;Travers;Goalkeeper;Everton;4.5;No
+1288;Harry;Tyrer;Goalkeeper;Everton;4.0;Yes
+1289;Jarrad;Branthwaite;Defender;Everton;5.5;Yes
+1290;James;Tarkowski;Defender;Everton;5.5;Yes
+1291;Vitaliy;Mykolenko;Defender;Everton;5.0;Yes
+1292;Jake;O'Brien;Defender;Everton;5.0;Yes
+1293;Seamus;Coleman;Defender;Everton;4.5;Yes
+1294;Michael;Keane;Defender;Everton;4.5;Yes
+1295;Nathan;Patterson;Defender;Everton;4.5;Yes
+1296;Roman;Dixon;Defender;Everton;4.0;Yes
+1297;Reece;Welch;Defender;Everton;4.0;Yes
+1298;Iliman;Ndiaye;Midfielder;Everton;6.5;Yes
+1299;Dwight;McNeil;Midfielder;Everton;6.0;Yes
+1300;Carlos;Alcaraz;Midfielder;Everton;5.5;Yes
+1301;Idrissa Gana;Gueye;Midfielder;Everton;5.5;Yes
+1302;James;Garner;Midfielder;Everton;5.0;Yes
+1303;Tim;Iroegbunam;Midfielder;Everton;5.0;Yes
+1304;Harrison;Armstrong;Midfielder;Everton;4.5;No
+1305;Callum;Bates;Midfielder;Everton;4.5;Yes
+1306;Coby;Ebere;Midfielder;Everton;4.5;Yes
+1307;Isaac;Heath;Midfielder;Everton;4.5;Yes
+1308;Jenson;Metcalfe;Midfielder;Everton;4.5;Yes
+1309;Thierno;Barry;Forward;Everton;6.0;No
+1310;;Beto;Forward;Everton;5.5;Yes
+1311;Youssef;Chermiti;Forward;Everton;5.0;Yes
+1312;Martin;Sherif;Forward;Everton;4.5;Yes
+1313;Bernd;Leno;Goalkeeper;Fulham;5.0;Yes
+1314;Steven;Benda;Goalkeeper;Fulham;4.0;Yes
+1315;Antonee;Robinson;Defender;Fulham;5.0;Yes
+1316;Joachim;Andersen;Defender;Fulham;4.5;Yes
+1317;Calvin;Bassey;Defender;Fulham;4.5;Yes
+1318;Timothy;Castagne;Defender;Fulham;4.5;Yes
+1319;Issa;Diop;Defender;Fulham;4.5;Yes
+1320;Jorge;J.Cuenca;Defender;Fulham;4.5;Yes
+1321;Kenny;Tete;Defender;Fulham;4.5;Yes
+1322;Samuel;Amissah;Defender;Fulham;4.0;Yes
+1323;Alex;Iwobi;Midfielder;Fulham;6.5;Yes
+1324;Emile;Smith Rowe;Midfielder;Fulham;6.0;Yes
+1325;Adama;Traore;Midfielder;Fulham;5.5;Yes
+1326;Andreas;Pereira;Midfielder;Fulham;5.5;Yes
+1327;Ryan;Sessegnon;Midfielder;Fulham;5.5;Yes
+1328;Harry;Wilson;Midfielder;Fulham;5.5;Yes
+1329;Sander;Berge;Midfielder;Fulham;5.0;Yes
+1330;Tom;Cairney;Midfielder;Fulham;5.0;Yes
+1331;Sasa;Lukic;Midfielder;Fulham;5.0;Yes
+1332;Martial;Godo;Midfielder;Fulham;4.5;Yes
+1333;Luke;Harris;Midfielder;Fulham;4.5;Yes
+1334;Josh;King;Midfielder;Fulham;4.5;Yes
+1335;Harrison;Reed;Midfielder;Fulham;4.5;Yes
+1336;Raul;Jimenez;Forward;Fulham;6.5;Yes
+1337;Rodrigo;Muniz;Forward;Fulham;5.5;Yes
+1338;Illan;Meslier;Goalkeeper;Leeds;4.5;No
+1339;Alex;Cairns;Goalkeeper;Leeds;4.0;Yes
+1340;Karl;Darlow;Goalkeeper;Leeds;4.0;No
+1341;Jayden;Bogle;Defender;Leeds;4.5;No
+1342;Pascal;Struijk;Defender;Leeds;4.5;No
+1343;Jaka;Bijol;Defender;Leeds;4.0;Yes
+1344;Sebastiaan;Bornauw;Defender;Leeds;4.0;Yes
+1345;Sam;Byram;Defender;Leeds;4.0;No
+1346;Gabriel;Gudmundsson;Defender;Leeds;4.0;Yes
+1347;Joe;Rodon;Defender;Leeds;4.0;No
+1348;Isaac;Schmidt;Defender;Leeds;4.0;No
+1349;Brenden;Aaronson;Midfielder;Leeds;5.5;No
+1350;Wilfried;Gnonto;Midfielder;Leeds;5.5;No
+1351;Jack;Harrison;Midfielder;Leeds;5.5;Yes
+1352;Daniel;James;Midfielder;Leeds;5.5;No
+1353;Ethan;Ampadu;Midfielder;Leeds;5.0;No
+1354;Sam;Greenwood;Midfielder;Leeds;5.0;No
+1355;Ilia;Gruev;Midfielder;Leeds;5.0;No
+1356;Largie;Ramazani;Midfielder;Leeds;5.0;No
+1357;Ao;Tanaka;Midfielder;Leeds;5.0;No
+1358;Charlie;Crew;Midfielder;Leeds;4.5;No
+1359;Joe;Gelhardt;Midfielder;Leeds;4.5;No
+1360;Darko;Gyabi;Midfielder;Leeds;4.5;No
+1361;Joel;Piroe;Forward;Leeds;5.5;No
+1362;Patrick;Bamford;Forward;Leeds;5.0;No
+1363;Mateo;Joseph;Forward;Leeds;5.0;No
+1364;Lukas;Nmecha;Forward;Leeds;5.0;Yes
+1365;Sean;Longstaff;Midfielder;Leeds;5.0;Yes
+1366;Anton;Stach;Midfielder;Leeds;5.0;Yes
+1367;;Alisson;Goalkeeper;Liverpool;5.5;Yes
+1368;Giorgi;Mamardashvili;Goalkeeper;Liverpool;4.5;No
+1369;Armin;Pecsi;Goalkeeper;Liverpool;4.0;Yes
+1370;Freddie;Woodman;Goalkeeper;Liverpool;4.0;No
+1371;Jeremie;Frimpong;Defender;Liverpool;6.0;No
+1372;Milos;Kerkez;Defender;Liverpool;6.0;Yes
+1373;Andrew;Robertson;Defender;Liverpool;6.0;Yes
+1374;Virgil;Van Dijk;Defender;Liverpool;6.0;Yes
+1375;Ibrahima;Konate;Defender;Liverpool;5.5;Yes
+1376;Conor;Bradley;Defender;Liverpool;5.0;Yes
+1377;Joe;Gomez;Defender;Liverpool;5.0;Yes
+1378;Kostas;Tsimikas;Defender;Liverpool;5.0;Yes
+1379;Amara;Nallo;Defender;Liverpool;4.0;Yes
+1380;Rhys;Williams;Defender;Liverpool;4.0;Yes
+1381;Calvin;Ramsay;Defender;Liverpool;4.0;Yes
+1382;Mohamed;Salah;Midfielder;Liverpool;14.5;Yes
+1383;Florian;Wirtz;Midfielder;Liverpool;8.5;No
+1385;Cody;Gakpo;Midfielder;Liverpool;7.5;Yes
+1386;Federico;Chiesa;Midfielder;Liverpool;6.5;Yes
+1387;Alexis;Mac Allister;Midfielder;Liverpool;6.5;Yes
+1388;Dominik;Szoboszlai;Midfielder;Liverpool;6.5;Yes
+1389;Curtis;Jones;Midfielder;Liverpool;5.5;Yes
+1390;Harvey;Elliott;Midfielder;Liverpool;5.5;Yes
+1391;Ryan;Gravenberch;Midfielder;Liverpool;5.5;Yes
+1392;Ben;Doak;Midfielder;Liverpool;5.0;No
+1393;Wataru;Endo;Midfielder;Liverpool;5.0;Yes
+1394;Stefan;Bajcetic;Midfielder;Liverpool;4.5;Yes
+1395;James;McConnell;Midfielder;Liverpool;4.5;Yes
+1396;Tyler;Morton;Midfielder;Liverpool;4.5;Yes
+1397;Trey;Nyoni;Midfielder;Liverpool;4.5;Yes
+1398;Darwin;Nunez;Forward;Liverpool;6.5;Yes
+1399;Jayden;Danns;Forward;Liverpool;4.5;Yes
+1400;Hugo;Ekitike;Forward;Liverpool;8.5;No
+1401;;Ederson;Goalkeeper;Manchester City;5.5;Yes
+1402;Stefan;Ortega;Goalkeeper;Manchester City;5.0;Yes
+1403;Marcus;Bettinelli;Goalkeeper;Manchester City;4.0;Yes
+1404;Rayan;Ait-nouri;Defender;Manchester City;6.0;Yes
+1405;Josko;Gvardiol;Defender;Manchester City;6.0;Yes
+1406;Manuel;Akanji;Defender;Manchester City;5.5;Yes
+1407;Nathan;Ake;Defender;Manchester City;5.5;Yes
+1408;Abdukodir;Khusanov;Defender;Manchester City;5.5;Yes
+1409;Matheus;Nunes;Defender;Manchester City;5.5;Yes
+1410;Ruben;Dias;Defender;Manchester City;5.5;Yes
+1411;John;Stones;Defender;Manchester City;5.5;Yes
+1412;Rico;Lewis;Defender;Manchester City;5.0;Yes
+1413;Nico;O'Reilly;Defender;Manchester City;5.0;Yes
+1414;Vitor;Vitor Reis;Defender;Manchester City;5.0;Yes
+1415;Omar;Marmoush;Midfielder;Manchester City;8.5;Yes
+1416;Phil;Foden;Midfielder;Manchester City;8.0;Yes
+1417;;Savio;Midfielder;Manchester City;7.0;Yes
+1418;Bernardo;Silva;Midfielder;Manchester City;6.5;Yes
+1419;Rayan;Cherki;Midfielder;Manchester City;6.5;No
+1420;Jeremy;Doku;Midfielder;Manchester City;6.5;Yes
+1421;Jack;Grealish;Midfielder;Manchester City;6.5;Yes
+1422;Ilkay;Gundogan;Midfielder;Manchester City;6.5;Yes
+1423;;Rodri;Midfielder;Manchester City;6.5;Yes
+1424;Mateo;Kovacic;Midfielder;Manchester City;6.0;Yes
+1425;Nico;Gonzalez;Midfielder;Manchester City;6.0;Yes
+1426;Oscar;Bobb;Midfielder;Manchester City;5.5;Yes
+1427;Claudio;Echeverri;Midfielder;Manchester City;5.5;Yes
+1428;James;McAtee;Midfielder;Manchester City;5.5;Yes
+1429;Tijjani;Reijnders;Midfielder;Manchester City;5.5;No
+1430;Sverre;Nypan;Midfielder;Manchester City;5.0;Yes
+1431;Kalvin;Phillips;Midfielder;Manchester City;5.0;Yes
+1432;Erling;Haaland;Forward;Manchester City;14.0;Yes
+1433;Bryan;Mbeumo;Midfielder;Manchester United;8.0;Yes
+1434;Altay;Bayindir;Goalkeeper;Manchester United;5.0;Yes
+1435;Andre;Onana;Goalkeeper;Manchester United;5.0;Yes
+1436;Elyh;Harrison;Goalkeeper;Manchester United;4.0;Yes
+1437;Tom;Heaton;Goalkeeper;Manchester United;4.0;Yes
+1438;Dermot;Mee;Goalkeeper;Manchester United;4.0;Yes
+1439;Matthijs;De Ligt;Defender;Manchester United;5.0;Yes
+1440;Lisandro;Martinez;Defender;Manchester United;5.0;Yes
+1441;Noussair;Mazraoui;Defender;Manchester United;5.0;Yes
+1442;Diego;D.Leon;Defender;Manchester United;4.5;Yes
+1443;Diogo;Dalot;Defender;Manchester United;4.5;Yes
+1444;Patrick;Dorgu;Defender;Manchester United;4.5;Yes
+1445;Harry;Maguire;Defender;Manchester United;4.5;Yes
+1446;Luke;Shaw;Defender;Manchester United;4.5;Yes
+1447;Leny;Yoro;Defender;Manchester United;4.5;Yes
+1448;Harry;Amass;Defender;Manchester United;4.0;Yes
+1449;Tyler;Fredricson;Defender;Manchester United;4.0;Yes
+1450;Ayden;Heaven;Defender;Manchester United;4.0;Yes
+1451;Tyrell;Malacia;Defender;Manchester United;4.0;Yes
+1452;Bruno;Fernandes;Midfielder;Manchester United;9.0;Yes
+1453;Matheus;Cunha;Midfielder;Manchester United;8.0;Yes
+1454;Marcus;Rashford;Midfielder;Manchester United;7.0;Yes
+1455;Amad;Diallo;Midfielder;Manchester United;6.5;Yes
+1456;Alejandro;Garnacho;Midfielder;Manchester United;6.5;Yes
+1457;;Antony;Midfielder;Manchester United;6.0;Yes
+1458;Mason;Mount;Midfielder;Manchester United;6.0;Yes
+1459;Jadon;Sancho;Midfielder;Manchester United;6.0;Yes
+1460;;Casemiro;Midfielder;Manchester United;5.5;Yes
+1461;Kobbie;Mainoo;Midfielder;Manchester United;5.0;Yes
+1462;Manuel;Ugarte Ribeiro;Midfielder;Manchester United;5.0;Yes
+1463;Toby;Collyer;Midfielder;Manchester United;4.5;Yes
+1464;Jayce;Fitzgerald;Midfielder;Manchester United;4.5;Yes
+1465;Jack;Fletcher;Midfielder;Manchester United;4.5;Yes
+1466;Sekou;Kone;Midfielder;Manchester United;4.5;Yes
+1467;Jack;Moorhouse;Midfielder;Manchester United;4.5;Yes
+1468;Rasmus;Hojlund;Forward;Manchester United;6.5;Yes
+1469;Joshua;Zirkzee;Forward;Manchester United;6.0;Yes
+1470;Chido;Obi;Forward;Manchester United;4.5;Yes
+1471;Ethan;Wheatley;Forward;Manchester United;4.5;Yes
+1472;Nick;Pope;Goalkeeper;Newcastle United;5.0;Yes
+1473;Martin;Dubravka;Goalkeeper;Newcastle United;4.0;Yes
+1474;Mark;Gillespie;Goalkeeper;Newcastle United;4.0;Yes
+1475;Odysseas;Odysseas;Goalkeeper;Newcastle United;4.0;Yes
+1476;Lewis;Hall;Defender;Newcastle United;5.5;Yes
+1477;Fabian;Schaer;Defender;Newcastle United;5.5;Yes
+1478;Sven;Botman;Defender;Newcastle United;5.0;Yes
+1479;Dan;Burn;Defender;Newcastle United;5.0;Yes
+1480;Tino;Livramento;Defender;Newcastle United;5.0;Yes
+1481;Kieran;Trippier;Defender;Newcastle United;5.0;Yes
+1482;Emil;Krafth;Defender;Newcastle United;4.5;Yes
+1483;Jamaal;Lascelles;Defender;Newcastle United;4.5;Yes
+1484;Alex;Murphy;Defender;Newcastle United;4.0;Yes
+1485;Harrison;Ashby;Defender;Newcastle United;4.0;No
+1486;Miodrag;Pivas;Defender;Newcastle United;4.0;Yes
+1487;Matt;Targett;Defender;Newcastle United;4.0;Yes
+1488;Anthony;Gordon;Midfielder;Newcastle United;7.5;Yes
+1489;Anthony;Elanga;Midfielder;Newcastle United;7.0;Yes
+1490;Harvey;Barnes;Midfielder;Newcastle United;6.5;Yes
+1491;Bruno;Guimares;Midfielder;Newcastle United;6.5;Yes
+1492;Jacob;Murphy;Midfielder;Newcastle United;6.5;Yes
+1493;;Joelinton;Midfielder;Newcastle United;6.0;Yes
+1494;Sandro;Tonali;Midfielder;Newcastle United;5.5;Yes
+1495;;Antonito;Midfielder;Newcastle United;5.0;Yes
+1496;Joe;Willock;Midfielder;Newcastle United;5.0;Yes
+1497;Isaac;Hayden;Midfielder;Newcastle United;4.5;No
+1498;Garang;Kuol;Midfielder;Newcastle United;4.5;Yes
+1499;Lewis;Milley;Midfielder;Newcastle United;4.5;Yes
+1500;Joe;White;Midfielder;Newcastle United;4.5;Yes
+1501;Alexander;Isak;Forward;Newcastle United;10.5;Yes
+1502;William;Osula;Forward;Newcastle United;5.5;Yes
+1503;Sean;Neave;Forward;Newcastle United;4.5;Yes
+1504;Matz;Sels;Goalkeeper;Nottingham Forest;5.0;Yes
+1505;Carlos Miguel;Miguel;Goalkeeper;Nottingham Forest;4.0;Yes
+1506;Matt;Turner;Goalkeeper;Nottingham Forest;4.0;Yes
+1507;Nikola;Milenkovic;Defender;Nottingham Forest;5.5;Yes
+1508;;Murillo;Defender;Nottingham Forest;5.5;Yes
+1509;Ola;Aina;Defender;Nottingham Forest;5.0;Yes
+1510;Neco;Williams;Defender;Nottingham Forest;5.0;Yes
+1511;David;David Carmo;Defender;Nottingham Forest;4.5;Yes
+1512;Jair;Cunha;Defender;Nottingham Forest;4.5;No
+1513;Felipe;Morato;Defender;Nottingham Forest;4.5;Yes
+1514;Omar;Richards;Defender;Nottingham Forest;4.5;No
+1515;Zach;Abbott;Defender;Nottingham Forest;4.0;Yes
+1516;Willy;Boly;Defender;Nottingham Forest;4.0;Yes
+1517;Morgan;Gibbs-White;Midfielder;Nottingham Forest;7.5;Yes
+1518;Callum;Hudson-Odoi;Midfielder;Nottingham Forest;6.0;Yes
+1519;Elliot;Anderson;Midfielder;Nottingham Forest;5.5;Yes
+1520;Joao;Jota;Midfielder;Nottingham Forest;5.5;Yes
+1521;Nicolas;Dominguez;Midfielder;Nottingham Forest;5.0;Yes
+1522;Lewis;O'Brien;Midfielder;Nottingham Forest;5.0;No
+1523;Ibrahim;Sangare;Midfielder;Nottingham Forest;5.0;Yes
+1524;Ryan;Yates;Midfielder;Nottingham Forest;5.0;Yes
+1525;Eric;Da Silva Moreira;Midfielder;Nottingham Forest;4.5;Yes
+1526;Marko;Stamenic;Midfielder;Nottingham Forest;4.5;Yes
+1527;Chris;Wood;Forward;Nottingham Forest;7.5;Yes
+1528;Igor Jesus;Igor Jesus;Forward;Nottingham Forest;6.0;Yes
+1529;Taiwo;Awoniyi;Forward;Nottingham Forest;5.5;Yes
+1530;Anthony;Patterson;Goalkeeper;Sunderland;4.5;No
+1531;Simon;Moore;Goalkeeper;Sunderland;4.0;No
+1532;Blondy;Nna Noukeu;Goalkeeper;Sunderland;4.0;Yes
+1533;Daniel;Ballard;Defender;Sunderland;4.5;No
+1534;Trai;Hume;Defender;Sunderland;4.5;No
+1535;Aji;Alese;Defender;Sunderland;4.0;No
+1536;Joe;Anderson;Defender;Sunderland;4.0;No
+1537;Dennis;Cirkin;Defender;Sunderland;4.0;No
+1538;Leo Fuhr;Hjelde;Defender;Sunderland;4.0;No
+1539;Niall;Huggins;Defender;Sunderland;4.0;Yes
+1540;Zak;Johnson;Defender;Sunderland;4.0;Yes
+1541;Luke;O'Nien;Defender;Sunderland;4.0;No
+1542;Timothee;Pembele;Defender;Sunderland;4.0;Yes
+1543;Reinildo;Reinildo;Defender;Sunderland;4.0;Yes
+1544;Jenson;Seelt;Defender;Sunderland;4.0;No
+1545;Simon;Adingra;Midfielder;Sunderland;5.5;Yes
+1546;Habib;Diarra;Midfielder;Sunderland;5.5;Yes
+1547;Patrick;Roberts;Midfielder;Sunderland;5.5;No
+1548;Milan;Aleksic;Midfielder;Sunderland;5.0;No
+1549;Enzo;Le Fee;Midfielder;Sunderland;5.0;No
+1550;Romaine;Mundle;Midfielder;Sunderland;5.0;No
+1551;Dan;Neil;Midfielder;Sunderland;5.0;No
+1552;Ian;Poveda;Midfielder;Sunderland;5.0;No
+1553;Chris;Rigg;Midfielder;Sunderland;5.0;No
+1554;Noah;Sadiki;Midfielder;Sunderland;5.0;Yes
+1555;Chemsdine;Talbi;Midfielder;Sunderland;5.0;Yes
+1556;Abdoullah;Ba;Midfielder;Sunderland;4.5;Yes
+1557;Alan;Browne;Midfielder;Sunderland;4.5;No
+1558;Pierre;Ekwah;Midfielder;Sunderland;4.5;Yes
+1559;Harrison;Jones;Midfielder;Sunderland;4.5;No
+1560;Jay;Matete;Midfielder;Sunderland;4.5;Yes
+1561;Nectarios;Triantis;Midfielder;Sunderland;4.5;No
+1562;Wilson;Isidor;Forward;Sunderland;5.5;No
+1563;Eliezer;Mayenda;Forward;Sunderland;5.5;No
+1564;Ahmed;Abdullahi;Forward;Sunderland;4.5;Yes
+1565;Luís Hemir;Luís Hemir;Forward;Sunderland;4.5;Yes
+1566;Nazarii;Rusyn;Forward;Sunderland;4.5;Yes
+1567;Guglielmo;Vicario;Goalkeeper;Tottenham Hotspur;5.0;Yes
+1568;Brandon;Austin;Goalkeeper;Tottenham Hotspur;4.0;Yes
+1569;Antonin;Kinsky;Goalkeeper;Tottenham Hotspur;4.0;Yes
+1570;Pedro;Porro;Defender;Tottenham Hotspur;5.5;Yes
+1571;Cristian;Romero;Defender;Tottenham Hotspur;5.0;Yes
+1572;Kevin;Danso;Defender;Tottenham Hotspur;4.5;Yes
+1573;Ben;Davies;Defender;Tottenham Hotspur;4.5;Yes
+1574;Radu;Dragusin;Defender;Tottenham Hotspur;4.5;Yes
+1575;Djed;Spence;Defender;Tottenham Hotspur;4.5;Yes
+1576;Destiny;Udogie;Defender;Tottenham Hotspur;4.5;Yes
+1577;Micky;Van de Ven;Defender;Tottenham Hotspur;4.5;Yes
+1578;Ashley;Phillips;Defender;Tottenham Hotspur;4.0;No
+1579;Takai;Takai;Defender;Tottenham Hotspur;4.0;Yes
+1580;Luka;Vuskovic;Defender;Tottenham Hotspur;4.0;Yes
+1581;Heung-Min;Son;Midfielder;Tottenham Hotspur;8.5;Yes
+1582;Brennan;Johnson;Midfielder;Tottenham Hotspur;7.0;Yes
+1583;James;Maddison;Midfielder;Tottenham Hotspur;7.0;Yes
+1584;Mohammed;Kudus;Midfielder;Tottenham Hotspur;6.5;Yes
+1585;Dejan;Kulusevski;Midfielder;Tottenham Hotspur;6.5;Yes
+1586;Mathys;Tel;Midfielder;Tottenham Hotspur;6.5;Yes
+1587;Rodrigo;Bentancur;Midfielder;Tottenham Hotspur;5.5;Yes
+1588;Lucas;Bergvall;Midfielder;Tottenham Hotspur;5.5;Yes
+1589;Yves;Bissouma;Midfielder;Tottenham Hotspur;5.5;Yes
+1590;Wilson;Odobert;Midfielder;Tottenham Hotspur;5.5;No
+1591;Manor;Solomon;Midfielder;Tottenham Hotspur;5.5;No
+1592;Bryan;Bryan;Midfielder;Tottenham Hotspur;5.0;Yes
+1593;Archie;Gray;Midfielder;Tottenham Hotspur;5.0;Yes
+1594;Mikey;Moore;Midfielder;Tottenham Hotspur;5.0;Yes
+1595;Pape Matar;Sarr;Midfielder;Tottenham Hotspur;5.0;Yes
+1596;Yang;Min-hyeok;Midfielder;Tottenham Hotspur;4.5;Yes
+1597;Callum;Olusesi;Midfielder;Tottenham Hotspur;4.5;Yes
+1598;Dominic;Solanke;Forward;Tottenham Hotspur;7.5;Yes
+1599;;Richarlison;Forward;Tottenham Hotspur;6.5;Yes
+1600;Will;Lankshear;Forward;Tottenham Hotspur;4.5;No
+1601;Dane;Scarlett;Forward;Tottenham Hotspur;4.5;No
+1602;Alphonse;Areola;Goalkeeper;West Ham United;4.5;Yes
+1603;Wes;Foderingham;Goalkeeper;West Ham United;4.0;Yes
+1604;Krisztián;Hegyi;Goalkeeper;West Ham United;4.0;Yes
+1605;El Hadji Malick;Diouf;Defender;West Ham United;4.5;No
+1606;Emerson;Palmieri;Defender;West Ham United;4.5;Yes
+1607;Max;Kilman;Defender;West Ham United;4.5;Yes
+1608;Konstantinos;Mavropanos;Defender;West Ham United;4.5;Yes
+1609;Nayef;Aguerd;Defender;West Ham United;4.5;No
+1610;Ollie;Scarles;Defender;West Ham United;4.5;Yes
+1611;Jean-Clair;Todibo;Defender;West Ham United;4.5;Yes
+1612;Aaron;Wan-Bissaka;Defender;West Ham United;4.5;Yes
+1613;Kaelan;Casey;Defender;West Ham United;4.0;Yes
+1614;Lucas;Paqueta;Midfielder;West Ham United;6.0;Yes
+1615;Tomas;Soucek;Midfielder;West Ham United;6.0;Yes
+1616;James;Ward-Prowse;Midfielder;West Ham United;6.0;Yes
+1617;Crysencio;Summerville;Midfielder;West Ham United;5.5;Yes
+1618;Edson;Alvarez;Midfielder;West Ham United;5.0;Yes
+1619;Maxwel;Cornet;Midfielder;West Ham United;5.0;Yes
+1620;Guido;Rodriguez;Midfielder;West Ham United;5.0;Yes
+1621;Luis;Guilherme;Midfielder;West Ham United;5.0;Yes
+1622;George;Earthy;Midfielder;West Ham United;4.5;No
+1623;Andy;Irving;Midfielder;West Ham United;4.5;Yes
+1624;Lewis;Orford;Midfielder;West Ham United;4.5;Yes
+1625;Freddie;Potts;Midfielder;West Ham United;4.5;No
+1626;Jarrod;Bowen;Forward;West Ham United;8.0;Yes
+1627;Niclas;Fullkrug;Forward;West Ham United;6.0;Yes
+1628;Callum;Marshall;Forward;West Ham United;4.5;Yes
+1629;Kyle;Walker-Peters;Defender;West Ham United;4.5;Yes
+1630;Sam;Johnstone;Goalkeeper;Wolverhampton Wanderers;4.5;Yes
+1631;Jose;Sa;Goalkeeper;Wolverhampton Wanderers;4.5;Yes
+1632;Daniel;Bentley;Goalkeeper;Wolverhampton Wanderers;4.0;Yes
+1633;Tom;King;Goalkeeper;Wolverhampton Wanderers;4.0;Yes
+1634;Emmanuel;Agbadou;Defender;Wolverhampton Wanderers;4.5;Yes
+1635;Matt;Doherty;Defender;Wolverhampton Wanderers;4.5;Yes
+1636;Hugo;Bueno;Defender;Wolverhampton Wanderers;4.5;No
+1637;Yerson;Mosquera;Defender;Wolverhampton Wanderers;4.5;Yes
+1638;Rodrigo;Gomes;Defender;Wolverhampton Wanderers;4.5;Yes
+1639;Santiago;Bueno;Defender;Wolverhampton Wanderers;4.5;Yes
+1640;Toti;Gomes;Defender;Wolverhampton Wanderers;4.5;Yes
+1641;Ki-Jana;Hoever;Defender;Wolverhampton Wanderers;4.0;No
+1642;Bastien;Meupiyou;Defender;Wolverhampton Wanderers;4.0;Yes
+1643;Pedro;Lima;Defender;Wolverhampton Wanderers;4.0;Yes
+1644;Alfie;Pond;Defender;Wolverhampton Wanderers;4.0;Yes
+1645;Hwang;Hee-Chan;Midfielder;Wolverhampton Wanderers;6.0;Yes
+1646;;Andre;Midfielder;Wolverhampton Wanderers;5.5;Yes
+1647;Jean-Ricner;Bellegarde;Midfielder;Wolverhampton Wanderers;5.5;Yes
+1648;Fer;Lopez;Midfielder;Wolverhampton Wanderers;5.5;No
+1649;Joao;Gomes;Midfielder;Wolverhampton Wanderers;5.5;Yes
+1650;Goncalo;Guedes;Midfielder;Wolverhampton Wanderers;5.5;Yes
+1651;Marshall;Munetsi;Midfielder;Wolverhampton Wanderers;5.5;Yes
+1652;Boubacar;Traore;Midfielder;Wolverhampton Wanderers;5.0;Yes
+1653;Tawanda;Chirewa;Midfielder;Wolverhampton Wanderers;4.5;No
+1654;Tom;Edozie;Midfielder;Wolverhampton Wanderers;4.5;Yes
+1655;Enso;Gonzalez;Midfielder;Wolverhampton Wanderers;4.5;Yes
+1656;Joe;Hodge;Midfielder;Wolverhampton Wanderers;4.5;Yes
+1657;Jorgen;Strand Larsen;Forward;Wolverhampton Wanderers;6.5;Yes
+1658;Fabio;Silva;Forward;Wolverhampton Wanderers;5.0;No
+1659;Sasa;Kalajdzic;Forward;Wolverhampton Wanderers;5.0;Yes
+1660;Leon;Chiwome;Forward;Wolverhampton Wanderers;4.5;Yes
+1661;Nathan;Fraser;Forward;Wolverhampton Wanderers;4.5;Yes
+1662;Jhon;Arias;Midfielder;Wolverhampton Wanderers;5.5;Yes
+1663;Viktor;Gyokeres;Forward;Arsenal;9.0;No
+1664;Granit;Xhaka;Midfielder;Sunderland;5.0;No
