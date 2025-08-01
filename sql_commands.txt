@@ -37,8 +37,6 @@ CHECK(price >= 4.0),
 last_season_in_premier_league VARCHAR(3)
 );
 
-ALTER TABLE player ADD CONSTRAINT set_pieces_taker_check CHECK (set_pieces_taker IN ('yes', 'no'));
-ALTER TABLE player ADD CONSTRAINT penalty_taker_check CHECK (penalty_taker IN ('yes', 'no'));
 
 
 
@@ -62,9 +60,9 @@ touches INT,
 tackles INT,
 interceptions INT,
 blocks INT,
-xG FLOAT,
-npxG FLOAT,
-xA FLOAT,
+xg FLOAT,
+npxg FLOAT,
+xa FLOAT,
 shot_created_actions INT,
 goal_created_actions INT,
 passes_completed INT,
@@ -138,40 +136,6 @@ INSERT INTO positions (position) VALUES
 ('Midfielder'),
 ('Forward');
 
-##############STARE
-\copy clubs FROM 'C:/Users/mporc/OneDrive/Dokumenty/Project_premier_league/clubs.csv' DELIMITER ';' CSV HEADER;
-
-\copy player FROM 'C:/Users/mporc/OneDrive/Dokumenty/Project_premier_league/players-proba.csv' DELIMITER ';' CSV HEADER;
-
-\copy stats FROM 'C:/Users/mporc/OneDrive/Dokumenty/Project_premier_league/stats_text_2.csv' DELIMITER ';' CSV HEADER;
-
-\copy stats FROM 'C:/Users/mporc/OneDrive/Dokumenty/Project_premier_league/stats.csv' DELIMITER E'\t' CSV HEADER;
-###############
-
-
-\copy clubs FROM 'C:/Users/mporc/OneDrive/Dokumenty/Project_premier_league/clubs2.csv' DELIMITER ';' CSV HEADER;
-
-\copy player FROM 'C:/Users/mporc/OneDrive/Dokumenty/Project_premier_league/players3.csv' DELIMITER ';' CSV HEADER;
-
-\copy stats FROM 'C:/Users/mporc/OneDrive/Dokumenty/Project_premier_league/ostateczne/all_stats.csv' DELIMITER ';' CSV HEADER;
-
-
-
-
-
-CREATE VIEW defensive_summary AS SELECT stats.player_id, CONCAT(player.surname,' ', player.name) as full_name, player.price, player.club, player.position, stats.rival, clubs.power, stats.position_in_the_game, stats.minutes_played, stats.tackles, stats.blocks, stats.clearances, stats.interceptions FROM stats JOIN clubs ON stats.rival=clubs.name JOIN player ON stats.player_id = player.player_id;
-
-
-CREATE VIEW offensive_summary AS SELECT stats.player_id, CONCAT(player.surname,' ', player.name) as full_name, player.price, player.club, player.position, stats.rival, clubs.power, stats.position_in_the_game, stats.minutes_played, stats.goals_scored, stats.assists, stats.xg, stats.npxg, stats.xa, stats.shots, stats.shots_on_target, stats.penalties_scored, stats.penalties_taken, stats.key_passes FROM stats JOIN clubs ON stats.rival = clubs.name JOIN player oN stats.player_id = player.player_id;
-
-
-
-
-
-
-
-
-
 
 
 
@@ -198,9 +162,10 @@ stats.touches,
 stats.tackles,
 stats.interceptions,
 stats.blocks,
-stats.xG,
-stats.npxG,
-stats.xA,
+stats.xg,
+stats.npxg,
+stats.xa,
+stats.xg+stats.xa AS xg_xa,
 stats.shot_created_actions,
 stats.goal_created_actions,
 stats.passes_completed,
@@ -269,124 +234,6 @@ stats.interceptions+ stats.blocks+ stats.clearances+ stats.tackles AS defensive_
 FROM stats JOIN clubs ON stats.rival=clubs.name RIGHT OUTER JOIN player ON stats.player_id = player.player_id;
 
 
-CREATE VIEW average AS
-SELECT 
-  stats.player_id,   
-  CONCAT(player.surname, ' ', player.name) AS full_name, 
-  player.price, 
-  player.club, 
-  player.last_season_in_premier_league, 
-  player.position,  
-  clubs.power, 
-  COUNT(*) AS matches_played,
-  ROUND(AVG(stats.minutes_played)::numeric, 2) AS avg_minutes_played,
-  ROUND(AVG(stats.goals_scored)::numeric, 2) AS avg_goals_scored,
-  ROUND(AVG(stats.assists)::numeric, 2) AS avg_assists,
-  ROUND(AVG(stats.penalties_scored)::numeric, 2) AS avg_penalties_scored,
-  ROUND(AVG(stats.penalties_taken)::numeric, 2) AS avg_penalties_taken,
-  ROUND(AVG(stats.shots)::numeric, 2) AS avg_shots,
-  ROUND(AVG(stats.shots_on_target)::numeric, 2) AS avg_shots_on_target,
-  ROUND(AVG(stats.yellow_cards)::numeric, 2) AS avg_yellow_cards,
-  ROUND(AVG(stats.red_cards)::numeric, 2) AS avg_red_cards,
-  ROUND(AVG(stats.touches)::numeric, 2) AS avg_touches,
-  ROUND(AVG(stats.tackles)::numeric, 2) AS avg_tackles,
-  ROUND(AVG(stats.interceptions)::numeric, 2) AS avg_interceptions,
-  ROUND(AVG(stats.blocks)::numeric, 2) AS avg_blocks,
-  ROUND(AVG(stats.xG)::numeric, 2) AS avg_xG,
-  ROUND(AVG(stats.npxG)::numeric, 2) AS avg_npxG,
-  ROUND(AVG(stats.xA)::numeric, 2) AS avg_xA,
-  ROUND(AVG(stats.shot_created_actions)::numeric, 2) AS avg_shot_created_actions,
-  ROUND(AVG(stats.goal_created_actions)::numeric, 2) AS avg_goal_created_actions,
-  ROUND(AVG(stats.passes_completed)::numeric, 2) AS avg_passes_completed,
-  ROUND(AVG(stats.passes_attempted)::numeric, 2) AS avg_passes_attempted,
-  ROUND(AVG(stats.progressive_passes)::numeric, 2) AS avg_progressive_passes,
-  ROUND(AVG(stats.carries)::numeric, 2) AS avg_carries,
-  ROUND(AVG(stats.progressive_carries)::numeric, 2) AS avg_progressive_carries,
-  ROUND(AVG(stats.take_ons_attempted)::numeric, 2) AS avg_take_ons_attempted,
-  ROUND(AVG(stats.successful_take_ons)::numeric, 2) AS avg_successful_take_ons,
-  ROUND(AVG(stats.total_passing_distance)::numeric, 2) AS avg_total_passing_distance,
-  ROUND(AVG(stats.progressive_passing_distance)::numeric, 2) AS avg_progressive_passing_distance,
-  ROUND(AVG(stats.short_passes_completed)::numeric, 2) AS avg_short_passes_completed,
-  ROUND(AVG(stats.short_passes_attempted)::numeric, 2) AS avg_short_passes_attempted,
-  ROUND(AVG(stats.mid_passes_completed)::numeric, 2) AS avg_mid_passes_completed,
-  ROUND(AVG(stats.mid_passes_attempted)::numeric, 2) AS avg_mid_passes_attempted,
-  ROUND(AVG(stats.long_passes_completed)::numeric, 2) AS avg_long_passes_completed,
-  ROUND(AVG(stats.long_passes_attempted)::numeric, 2) AS avg_long_passes_attempted,
-  ROUND(AVG(stats.key_passes)::numeric, 2) AS avg_key_passes,
-  ROUND(AVG(stats.passes_into_final_third)::numeric, 2) AS avg_passes_into_final_third,
-  ROUND(AVG(stats.passes_into_penalty_area)::numeric, 2) AS avg_passes_into_penalty_area,
-  ROUND(AVG(stats.crosses_into_penalty_area)::numeric, 2) AS avg_crosses_into_penalty_area,
-  ROUND(AVG(stats.live_ball_passes)::numeric, 2) AS avg_live_ball_passes,
-  ROUND(AVG(stats.dead_ball_passes)::numeric, 2) AS avg_dead_ball_passes,
-  ROUND(AVG(stats.passes_from_free_kicks)::numeric, 2) AS avg_passes_from_free_kicks,
-  ROUND(AVG(stats.through_balls)::numeric, 2) AS avg_through_balls,
-  ROUND(AVG(stats.switches)::numeric, 2) AS avg_switches,
-  ROUND(AVG(stats.crosses)::numeric, 2) AS avg_crosses,
-  ROUND(AVG(stats.throw_ins)::numeric, 2) AS avg_throw_ins,
-  ROUND(AVG(stats.corner_kicks)::numeric, 2) AS avg_corner_kicks,
-  ROUND(AVG(stats.inswingins_corners)::numeric, 2) AS avg_inswingins_corners,
-  ROUND(AVG(stats.outswinging_corners)::numeric, 2) AS avg_outswinging_corners,
-  ROUND(AVG(stats.straight_corners)::numeric, 2) AS avg_straight_corners,
-  ROUND(AVG(stats.tackles_won)::numeric, 2) AS avg_tackles_won,
-  ROUND(AVG(stats.tackles_def_3rd)::numeric, 2) AS avg_tackles_def_3rd,
-  ROUND(AVG(stats.tackles_mid_3rd)::numeric, 2) AS avg_tackles_mid_3rd,
-  ROUND(AVG(stats.tackles_att_3rd)::numeric, 2) AS avg_tackles_att_3rd,
-  ROUND(AVG(stats.dribbles_tackled)::numeric, 2) AS avg_dribbles_tackled,
-  ROUND(AVG(stats.dribbles_challenged)::numeric, 2) AS avg_dribbles_challenged,
-  ROUND(AVG(stats.challenges_lost)::numeric, 2) AS avg_challenges_lost,
-  ROUND(AVG(stats.shots_blocked)::numeric, 2) AS avg_shots_blocked,
-  ROUND(AVG(stats.passes_blocked)::numeric, 2) AS avg_passes_blocked,
-  ROUND(AVG(stats.clearances)::numeric, 2) AS avg_clearances,
-  ROUND(AVG(stats.errors)::numeric, 2) AS avg_errors,
-  ROUND(AVG(stats.touches_def_pen)::numeric, 2) AS avg_touches_def_pen,
-  ROUND(AVG(stats.touches_def_3rd)::numeric, 2) AS avg_touches_def_3rd,
-  ROUND(AVG(stats.touches_mid_3rd)::numeric, 2) AS avg_touches_mid_3rd,
-  ROUND(AVG(stats.touches_att_3rd)::numeric, 2) AS avg_touches_att_3rd,
-  ROUND(AVG(stats.touches_att_pen)::numeric, 2) AS avg_touches_att_pen,
-  ROUND(AVG(stats.live_ball_touches)::numeric, 2) AS avg_live_ball_touches,
-  ROUND(AVG(stats.carries_tot_distance)::numeric, 2) AS avg_carries_tot_distance,
-  ROUND(AVG(stats.progressive_carrying_distance)::numeric, 2) AS avg_progressive_carrying_distance,
-  ROUND(AVG(stats.carries_into_final_3rd)::numeric, 2) AS avg_carries_into_final_3rd,
-  ROUND(AVG(stats.carries_into_pen_area)::numeric, 2) AS avg_carries_into_pen_area,
-  ROUND(AVG(stats.miscontrols)::numeric, 2) AS avg_miscontrols,
-  ROUND(AVG(stats.disspossesed)::numeric, 2) AS avg_disspossesed,
-  ROUND(AVG(stats.passes_received)::numeric, 2) AS avg_passes_received,
-  ROUND(AVG(stats.progressive_passes_received)::numeric, 2) AS avg_progressive_passes_received,
-  ROUND(AVG(stats.fouls_committed)::numeric, 2) AS avg_fouls_committed,
-  ROUND(AVG(stats.fouls_drawn)::numeric, 2) AS avg_fouls_drawn,
-  ROUND(AVG(stats.offsides)::numeric, 2) AS avg_offsides,
-  ROUND(AVG(stats.penalties_won)::numeric, 2) AS avg_penalties_won,
-  ROUND(AVG(stats.ball_recoveries)::numeric, 2) AS avg_ball_recoveries,
-  ROUND(AVG(stats.aerials_won)::numeric, 2) AS avg_aerials_won,
-  ROUND(AVG(stats.aerials_lost)::numeric, 2) AS avg_aerials_lost,
-  ROUND(AVG(stats.interceptions + stats.blocks + stats.clearances + stats.tackles)::numeric, 2) AS avg_defensive_actions
-
-FROM stats
-JOIN player ON stats.player_id = player.player_id
-JOIN clubs ON clubs.name = stats.rival
-
-GROUP BY 
-  stats.player_id, 
-  player.surname,
-  player.name,
-  player.price, 
-  player.club, 
-  player.position, 
-  clubs.power;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 CREATE VIEW average AS
 SELECT 
@@ -410,9 +257,10 @@ SELECT
   ROUND(AVG(stats.tackles)::numeric, 2) AS avg_tackles,
   ROUND(AVG(stats.interceptions)::numeric, 2) AS avg_interceptions,
   ROUND(AVG(stats.blocks)::numeric, 2) AS avg_blocks,
-  ROUND(AVG(stats.xG)::numeric, 2) AS avg_xG,
-  ROUND(AVG(stats.npxG)::numeric, 2) AS avg_npxG,
-  ROUND(AVG(stats.xA)::numeric, 2) AS avg_xA,
+  ROUND(AVG(stats.xg)::numeric, 2) AS avg_xg,
+  ROUND(AVG(stats.npxg)::numeric, 2) AS avg_npxg,
+  ROUND(AVG(stats.xa)::numeric, 2) AS avg_xa,
+  ROUND(AVG(stats.xg+stats.xa)::numeric, 2) AS avg_xg_xa,
   ROUND(AVG(stats.shot_created_actions)::numeric, 2) AS avg_shot_created_actions,
   ROUND(AVG(stats.goal_created_actions)::numeric, 2) AS avg_goal_created_actions,
   ROUND(AVG(stats.passes_completed)::numeric, 2) AS avg_passes_completed,
