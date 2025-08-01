@@ -4,6 +4,7 @@ library(RPostgres)
 library(DBI)
 
 readRenviron(".Renviron")
+
 ###################################################
 # There we create connection with database in SQL #
 ###################################################
@@ -18,9 +19,9 @@ con <- DBI::dbConnect(
 
 # We load our data into database
 
-df_clubs <- read_delim("data/clubs.csv", delim=";")
-df_players <- read_delim("data/players.csv", delim=";")
-df_stats <- read_delim("data/all_stats.csv", delim=";")
+df_clubs <- read_delim("clubs.csv", delim=";")
+df_players <- read_delim("players.csv", delim=";")
+df_stats <- read_delim("all_stats.csv", delim=";")
 
 df_players
 dbExecute(con, "DELETE FROM stats")
